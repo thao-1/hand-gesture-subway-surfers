@@ -1,24 +1,24 @@
-# Hand Gesture Subway Surfers Controller
+# Hand Gesture Temple Run Controller
 
-This project is used to control Subway Surfers using hand gestures captured through your webcam. It uses MediaPipe for hand tracking and PyAutoGUI for game control.
+This project is used to control Temple Run using hand gestures captured through your webcam. It uses MediaPipe for hand tracking and PyAutoGUI for game control.
 
 ## Requirements
 
 - Python 3.7 or higher
 - Webcam
-- Subway Surfers game (PC version or web version)
+- Temple Run game (PC version)
 
 ## Installation
 
 1. Create a virtual environment (recommended):
 ```bash
-python -m venv subway_surfers_env
+python -m venv temple_run_env
 
 # On Windows:
-subway_surfers_env\Scripts\activate
+temple_run_env\Scripts\activate
 
 # On macOS/Linux:
-source subway_surfers_env/bin/activate
+source temple_run_env/bin/activate
 ```
 
 2. Install dependencies:
@@ -28,7 +28,7 @@ pip install -r requirements.txt
 
 ## Usage
 
-1. Make sure Subway Surfers is running and in focus
+1. Make sure Temple Run is running and in focus
 2. Run the controller:
 ```bash
 python hand_gesture_controller.py
@@ -63,7 +63,7 @@ python hand_gesture_controller.py
 - Run the calibration mode (uncomment lines in main)
 
 ### Game Control Issues
-- Make sure Subway Surfers window is active and in focus
+- Make sure Temple Run window is active and in focus
 - Check if the game uses different key bindings
 - Adjust the action_cooldown if actions are too fast/slow
 
